@@ -10,6 +10,12 @@ env GOOS=linux GOARCH=arm go build
 `` Where GOOS your operation system, and GOARCH is architecture of your processor
 3. In the folder you will find executable file, so you can start to use
 
+Tip:
+```
+On Linux and MacOS systems better build command:
+go build -ldflags "-s -w"
+```
+
 # How to install
 
 1. Run `go install`
